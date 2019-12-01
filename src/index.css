@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1f1f1f;
+  color: #dedede;
+  font-size: 1rem;
+}
+
+input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#root {
+  margin: 2rem auto;
+  width: 300px;
+}
+
+input:focus,
+button:focus {
+  outline-color: #d2004c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.offsetTop {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.formControl {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  padding: .5rem;
+}
+
+.emphasis {
+  color: #d2004c;
+}
+
+.button {
+  background-color: #d2004c;
+  color: #dedede;
+  border: none;
+  font-size: .8rem;
+  padding: .5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: black;
 }

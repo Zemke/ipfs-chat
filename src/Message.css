@@ -1,0 +1,23 @@
+.message {
+    margin-top: .5rem;
+}
+
+.message.you {
+    text-align: right;
+    padding-left: .5rem;
+}
+
+.message.left {
+    text-align: left;
+    padding-right: .5rem;
+}
+
+.message > .from {
+    color: #d2004c;
+    font-size: .8rem;
+}
+
+.message > .body {
+    font-size: 1rem;
+    font-weight: bold;
+}
