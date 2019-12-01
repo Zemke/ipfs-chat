@@ -6,7 +6,7 @@ import Compose from "./Compose";
 import Message from "./Message";
 
 const ipfsClient = require('ipfs-http-client');
-const ipfs = ipfsClient('/ip4/0.0.0.0/tcp/5001');
+const ipfs = ipfsClient(`/ip4/${window.location.host}/tcp/5001`);
 
 
 export default class AppComponent extends React.Component {
