@@ -6,6 +6,7 @@ export default class ComposeComponent extends React.Component {
 
   send = async e => {
     e.preventDefault();
+    if (!this.state.typing) return;
     await this.props.send(this.state.typing);
     this.setState({typing: ''});
   };
